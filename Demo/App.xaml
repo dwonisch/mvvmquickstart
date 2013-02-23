@@ -1,8 +1,9 @@
 ﻿<Application x:Class="Demo.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="clr-namespace:Demo"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <d:Composer x:Key="Source" />
     </Application.Resources>
 </Application>
